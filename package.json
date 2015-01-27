@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Parse html and extract all the form input element list.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/darkowlzz/form-input-list.git"
+  },
   "scripts": {
     "test": "mocha"
   },
