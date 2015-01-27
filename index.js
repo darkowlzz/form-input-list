@@ -23,7 +23,6 @@ function formInput(html) {
             result[index]['inputs'].push(input.name);
           });
         });
-        console.log(result);
         resolve(result);
       }
     );
