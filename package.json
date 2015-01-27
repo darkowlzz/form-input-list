@@ -1,7 +1,7 @@
 {
   "name": "form-input-list",
-  "version": "0.0.1",
-  "description": "Parse html and extract all the form input element list.",
+  "version": "0.0.2",
+  "description": "Parse html and extract all the form input fields with values.",
   "main": "index.js",
   "repository": {
     "type": "git",

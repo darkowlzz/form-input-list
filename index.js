@@ -13,13 +13,17 @@ function formInput(html) {
             forms = window.document.getElementsByTagName('form');
         forms = Array.prototype.slice.call(forms);
         forms.forEach(function (form, index) {
-          result.push({'formIndex': index, 'inputs': []});
+          result.push({'formIndex': index, 'inputs': [], 'values': {}});
           inputs = form.getElementsByTagName('input');
           inputs = Array.prototype.slice.call(inputs);
           inputs.forEach(function (input) {
+            if (input.value) {
+              result[index]['values'][input.name] = input.value;
+            }
             result[index]['inputs'].push(input.name);
           });
         });
+        console.log(result);
         resolve(result);
       }
     );

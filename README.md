@@ -2,7 +2,7 @@ form-input-list
 ===============
 [![Build Status](https://travis-ci.org/darkowlzz/simple-headers.svg?branch=master)](https://travis-ci.org/darkowlzz/form-input-list)
 
-Get form input list from a given html doc.
+Get form input fields with values from a given html doc.
 
 
 ## To use
